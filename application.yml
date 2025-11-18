@@ -1,0 +1,6 @@
+services:
+  axonserver:
+    container_name: axonserver
+    ports:
+      - '8024:8024'
+      - '8124:8124'
